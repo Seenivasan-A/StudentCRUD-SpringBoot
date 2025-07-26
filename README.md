@@ -10,3 +10,11 @@
 | `README.md`         | Markdown file where you describe the project purpose, how to run it, etc. Displayed on the repo homepage.                                                             |
 | `mvnw` & `mvnw.cmd` | Shell/batch scripts to run Maven commands without installing Maven globally.                                                                                          |
 | `pom.xml`           | The Maven configuration file where you define project dependencies, plugins, Java version, etc.                                                                       |
+
+
+Postman
+http://localhost:8085/students -Getall Students
+http://localhost:8085/students/rno -Get Students by Id
+http://localhost:8085/students/rno -Delete Students by Id
+http://localhost:8085/students -Post New Students
+http://localhost:8085/students/rno -Update by Id
