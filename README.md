@@ -1,12 +1,12 @@
 # StudentCRUD-SpringBoot
 
-| File/Folder        | Description                                                   |
-| ------------------ | ------------------------------------------------------------- |
-| `.mvn/wrapper`     | Maven wrapper scripts (so users don't need Maven installed)   |
-| `src`              | Source code (your Java classes, resources, etc.)              |
-| `.DS_Store`        | macOS file — can be ignored (consider adding to `.gitignore`) |
-| `.gitattributes`   | Git attributes settings (e.g., line endings)                  |
-| `.gitignore`       | Tells Git which files to ignore (e.g., `target/`)             |
-| `README.md`        | Project description file                                      |
-| `mvnw`, `mvnw.cmd` | Maven wrapper scripts (for Linux/macOS and Windows)           |
-| `pom.xml`          | Maven configuration file                                      |
+| Name                | Description                                                                                                                                                           |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `.mvn/wrapper`      | Maven Wrapper scripts and JARs used for building the project even if Maven is not installed globally.                                                                 |
+| `src`               | Contains your **Java source code** and **Spring Boot application logic**. This is where your `controller`, `service`, `repository`, and `entity` classes are located. |
+| `.DS_Store`         | Mac OS system file (can be deleted). It stores folder view settings and is not needed in your project.                                                                |
+| `.gitattributes`    | Git settings for handling line endings and merge rules. Optional.                                                                                                     |
+| `.gitignore`        | Tells Git which files/folders to ignore (e.g., IDE files, `target/`, `.class` files).                                                                                 |
+| `README.md`         | Markdown file where you describe the project purpose, how to run it, etc. Displayed on the repo homepage.                                                             |
+| `mvnw` & `mvnw.cmd` | Shell/batch scripts to run Maven commands without installing Maven globally.                                                                                          |
+| `pom.xml`           | The Maven configuration file where you define project dependencies, plugins, Java version, etc.                                                                       |
